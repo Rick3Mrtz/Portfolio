@@ -1,3 +1,28 @@
-.logo {
-    
-}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .logo {
+    animation: spin 8s infinite linear;
+  }
+  
+  .nav-link {
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid black;
+  }
+  
