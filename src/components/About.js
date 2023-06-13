@@ -8,16 +8,16 @@ function About () {
         <div className="w-full flex justify-center items-center my-16 text-3xl font-sans text-gray-500 tracking-widest">
                     About Me
                 </div>
-        <div className=" about-container mx-20 my-16">
-            <div className="About-me flex justify-center">
+        <div className=" about-container md:mx-20 lg:mx-20 my-16">
+            <div className="About-me md:flex lg:flex justify-center">
                 
-                <div className="w-1/2">
+                <div className="w-1/2 sm:w-full flex justify-center">
                 <div className="w-4/5 relative">
                     <img src={Avi} alt="Avi" className="Avi rounded-full" />
                 </div>
 
                 </div>
-                <div className="w-1/2 flex justify-center items-center font-sans text-2xl leading-loose tracking-wider font-semibold">
+                <div className="w-1/2 flex justify-center items-center font-sans text-base md:text-xl lg:text-2xl leading-loose tracking-wider font-semibold sm:w-full">
                     Hello my name is Rick! As someone who has a newfound passion for Web Developing, I am ready to join a professional team of Software Developers. I am highly motivated and most of all eager to apply my technical skills and contribute to a team of Software Engineers.
                 </div>
             </div>

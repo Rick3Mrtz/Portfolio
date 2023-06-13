@@ -18,49 +18,41 @@ function Education() {
                     <h1 className="text-6xl font-bold text-white text-center px-0 py-16">The University of Texas - Austin
                     </h1>
 
-
-
-                    <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 py-16 tracking-normal">
+                    <div className="cards grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-20 py-16 tracking-normal">
                         {/* Card 1 */}
-                        <div className="bg-white text-center p-4">
-                            <DiHtml5 size={50}/>
-                            <h2>HTML</h2>
-                            <p>Card 1 content</p>
+                        <div className=" text-center p-4">
+                            <DiHtml5 className="" size={130}/>
+                            
                         </div>
 
                         {/* Card 2 */}
-                        <div className="bg-white text-center p-4">
-                            <DiCss3 size={50}/>
-                            <h2>CSS</h2>
-                            <p>Card 2 content</p>
+                        <div className=" text-center p-4">
+                            <DiCss3 className="" size={130}/>
+                            
                         </div>
 
                         {/* Card 3 */}
-                        <div className="bg-white text-center p-4">
-                            <FaReact size={50}/>
-                            <h2>React</h2>
-                            <p>Card 3 content</p>
+                        <div className=" text-center p-4">
+                            <FaReact className="" size={130}/>
+                            
                         </div>
 
                         {/* Card 4 */}
-                        <div className="bg-white text-center p-4">
-                            <SiTailwindcss size={50}/>
-                            <h2>Tailwind</h2>
-                            <p>Card 4 content</p>
+                        <div className=" text-center p-4">
+                            <SiTailwindcss className="" size={130}/>
+                            
                         </div>
 
                         {/* Card 5 */}
-                        <div className="bg-white text-center p-4">
-                            <SiGreensock size={50}/>
-                            <h2>GSAP Animation</h2>
-                            <p>Card 5 content</p>
+                        <div className=" text-center p-4">
+                            <SiGreensock className="" size={130}/>
+                            
                         </div>
 
                         {/* Card 6 */}
-                        <div className="bg-white text-center p-4">
-                            <SiJavascript size={50}/>
-                            <h2>JavaScript</h2>
-                            <p>Card 6 content</p>
+                        <div className=" text-center p-4">
+                            <SiJavascript className="" size={130}/>
+                            
                         </div>
                     </div>
 
