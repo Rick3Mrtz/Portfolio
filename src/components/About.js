@@ -1,10 +1,28 @@
-import React from "react";
+import React, { createRef, useEffect, useRef } from "react";
 import '../styles/About.css'
 import Avi from '../assets/Slack-pic.png'
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
 
 function About() {
+
+  const myRef = useRef(null);
+    useEffect(() => {
+        let fromVar = gsap.from(myRef.current, {
+            opacity: 0,
+            duration: 3,
+            y: 90,
+            immediateRender: false,
+        });
+        return () => {
+            fromVar.kill();
+        };
+    }, []);
+
+
   return (
-    <>
+    <div ref={myRef}>
       <div id="about-section" className="w-full flex justify-center items-center my-16 text-3xl font-sans text-gray-500 tracking-widest">
         About Me
       </div>
@@ -20,7 +38,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

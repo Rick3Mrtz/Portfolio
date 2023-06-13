@@ -1,12 +1,29 @@
-import React from "react";
+import React, { createRef, useEffect, useRef } from "react";
 import '../styles/Home.css'
 import Laptop from '../assets/port-laptop2.png'
 import Phone from '../assets/port-phone2.png'
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
 
 function Home () {
+
+    const myRef = useRef(null);
+    useEffect(() => {
+        let fromVar = gsap.from(myRef.current, {
+            opacity: 0,
+            duration: 3,
+            y: 90,
+            immediateRender: false,
+        });
+        return () => {
+            fromVar.kill();
+        };
+    }, []);
+
     return (
         <>
-        <div className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-16 px-6 md:px-10 lg:px-40 xl:px-56">
+        <div ref={myRef} className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-16 px-6 md:px-10 lg:px-40 xl:px-56">
             <div className="content flex-col h-min flex-nowrap justify-start gap-8 items-center">
 
                 <div className="title text-center font-extrabold leading-none text-[#fff] space-y-8">
