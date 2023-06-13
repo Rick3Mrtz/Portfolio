@@ -17,7 +17,7 @@ function About () {
                 </div>
 
                 </div>
-                <div className="w-1/2 flex justify-center items-center font-sans text-base md:text-xl lg:text-2xl leading-loose tracking-wider font-semibold sm:w-full">
+                <div className="w-1/2 flex justify-center items-center font-sans text-base md:text-xl lg:text-2xl leading-loose tracking-wider font-semibold sm:w-full sm:p-6 sm:text-center">
                     Hello my name is Rick! As someone who has a newfound passion for Web Developing, I am ready to join a professional team of Software Developers. I am highly motivated and most of all eager to apply my technical skills and contribute to a team of Software Engineers.
                 </div>
             </div>
