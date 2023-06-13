@@ -11,7 +11,7 @@ import { SiJavascript } from "react-icons/si"
 function Education() {
     return (
         <>
-            <div className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-10 px-6 md:px-10 lg:px-10 xl:px-10">
+            <div id="education-section" className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-10 px-6 md:px-10 lg:px-10 xl:px-10">
 
                 <div className="education text-gray-500 flex flex-col flex-nowrap justify-center items-center text-3xl tracking-widest">
                     Education & Skills

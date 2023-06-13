@@ -33,7 +33,7 @@ function Contact () {
         <div className=" border-b-[0.1px] border-orange-400"></div>
 
 
-                        <div className="bg-[#151515] flex justify-between items-center w-full h-[8vh] text-gray-500 p-8 overflow-hidden">
+                        <div id="contact-section" className="bg-[#151515] flex justify-between items-center w-full h-[8vh] text-gray-500 p-8 overflow-hidden">
                             <p className="">
                                 Front End Developer
                             </p>

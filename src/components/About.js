@@ -5,12 +5,12 @@ import Avi from '../assets/Slack-pic.png'
 function About() {
   return (
     <>
-      <div className="w-full flex justify-center items-center my-16 text-3xl font-sans text-gray-500 tracking-widest">
+      <div id="about-section" className="w-full flex justify-center items-center my-16 text-3xl font-sans text-gray-500 tracking-widest">
         About Me
       </div>
       <div className="about-container md:mx-20 lg:mx-20 my-16">
         <div className="About-me md:flex lg:flex justify-center">
-          <div className="sm:w-full w-1/2 flex justify-center items-center"> {/* Modified line */}
+          <div className="sm:w-full w-1/2 flex justify-center items-center">
             <div className="w-4/5 relative">
               <img src={Avi} alt="Avi" className="Avi rounded-full pb-8" />
             </div>
