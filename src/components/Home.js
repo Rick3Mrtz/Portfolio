@@ -6,7 +6,7 @@ import Phone from '../assets/port-phone2.png'
 function Home () {
     return (
         <>
-        <div className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-20 px-6 md:px-10 lg:px-40 xl:px-56">
+        <div className=" h-min bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-16 py-16 px-6 md:px-10 lg:px-40 xl:px-56">
             <div className="content flex-col h-min flex-nowrap justify-start gap-8 items-center">
 
                 <div className="title text-center font-extrabold leading-none text-[#fff] space-y-8">
