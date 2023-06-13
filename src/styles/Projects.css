@@ -7,3 +7,38 @@
     letter-spacing: 8px;
     text-transform: uppercase
 }
+
+@media (max-width: 768px) {
+    .project-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+    }
+
+    .gist {
+        font-size: 26px;
+    }
+    .current {
+        font-size: 16px;
+    }
+
+   
+  }
+  
+  @media (max-width: 480px) {
+    .project-container {
+      padding: 5px;
+    }
+
+    .gist {
+        font-size: 22px;
+    }
+  
+    .project-container > div {
+      width: 100% !important;
+    }
+
+    
+  }
+  

@@ -8,7 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact () {
     return (
         <>
-        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[40vh]">
+        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[30vh]">
             
                 <div className="flex flex-col justify-center text-white leading-none font-bold text-[4.5rem] text-center">
                 Let's Get in<br></br>Touch!
