@@ -42,7 +42,7 @@ function Projects() {
                     - Always looking for new Animation Libraries<br></br>
                     - Front End is my comfort zone <br></br>
                     - Working on my Weaknesses <br></br>
-                    - Willing to learn any language
+                    - Looking forward to working with a Team that will make me a better Web Dev every day.
                 </p>
                 </div>
 
