@@ -12,7 +12,7 @@ function Projects() {
         
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate flex font-sans text-gray-400 tracking-widest">
-            Just Another Taco Emporium
+            <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline" >Just Another Taco Emporium</a>
           </p>
           <p className="gist flex">Front End Dev/Designer</p>
         </div>
