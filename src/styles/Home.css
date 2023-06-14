@@ -12,12 +12,6 @@
     line-height: 1;
   }
   
-  .subtext {
-    font-size: 18px;
-    color: #54545d;
-    font-family: sans-serif;
-    font-weight: normal;
-  }
   
   @media (max-width: 768px) {
     .title {
@@ -25,7 +19,7 @@
     }
   
     .subtext {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   
@@ -35,7 +29,7 @@
     }
   
     .subtext {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   

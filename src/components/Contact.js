@@ -8,12 +8,12 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact () {
     return (
         <>
-        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[30vh]">
+        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[40vh] font-sans">
             
-                <div className="flex flex-col justify-center text-white leading-none font-bold text-[4.5rem] text-center">
-                Let's Get in<br></br>Touch!
+                <div className="flex flex-col justify-center text-white leading-none font-bold sm:text-6xl lg:text-[4rem] text-center tracking-wider">
+                Ready To<br></br>Collaborate?
                 
-            <div className="links flex justify-center items-center gap-8 pt-10">
+            <div className="links flex justify-center items-center gap-8 py-10">
             <a href='http://www.linkedin.com/in/rickmrtz3'>
                     <FaLinkedin size={50} id='linked' className='cursor-pointer hover:scale-125 duration-200 text-gray-400 hover:text-orange-400' />
                     </a>
