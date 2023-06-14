@@ -29,7 +29,7 @@ function Home () {
                 <div className="title text-center font-extrabold leading-none text-[#fff] space-y-8">
                     Hello, Nice to Meet You<br></br> My Name is Rick
                     <p className="subtext text-[18px] text-[#54545d] font-sans font-normal ">
-                    Front End Web Dev who also needs to find some placeholders for this text. Idk here is sports stuff, lets go yankees! Avid PokemonGo player and DragonBall Z Stan. Myles and Joshy for life, and last but not least lets go Cowboys.
+                         Innovative Front End Web Developer and aspiring UX/UI Designer based in San Antonio, Texas. Constantly seeking to advance my skillset any way possible. Creative, highly motivated, ready to work!
                     </p>
                 </div>
 
