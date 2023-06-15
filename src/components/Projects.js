@@ -12,7 +12,7 @@ function Projects() {
         
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
-            <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline font-bold lg:text-4xl" >E-Commerce Website</a>
+            <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline font-bold lg:text-4xl hover:text-gray-400" >E-Commerce Website</a>
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">GreenSock (GSAP) Animation, useEffect/useState,<br></br> Parallax Scrolling, Tailwind CSS, React. </p>
           </p>
           <p className="gist flex">Front End Dev/Designer</p>
@@ -24,7 +24,7 @@ function Projects() {
         
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
-          <a href="https://rick3mrtz.github.io/Glassmorphism/" className="cursor-pointer underline font-bold lg:text-4xl" >
+          <a href="https://rick3mrtz.github.io/Glassmorphism/" className="cursor-pointer underline font-bold lg:text-4xl hover:text-gray-400" >
             Glassmorphism</a>
 
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">Practiced w/ New CSS Trend, React, Vanilla CSS.  </p>
@@ -38,8 +38,8 @@ function Projects() {
         
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
-          <a href="https://rick3mrtz.github.io/Portfolio/" className="cursor-not-allowed font-bold lg:text-4xl line-through" >
-            Marvel Database</a>
+          <div className="cursor-not-allowed font-bold lg:text-4xl line-through" >
+            Marvel Database</div>
             
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">*WORK IN PROGRESS*<br></br>React, Tailwind, GSAP, API, Axios </p>
           </p>

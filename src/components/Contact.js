@@ -8,9 +8,9 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact () {
     return (
         <>
-        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[40vh] font-sans">
+        <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[30vh] lg:h-[35vh] md:h-[35vh] sm:h-[30vh] font-sans">
             
-                <div className="flex flex-col justify-center text-white leading-none font-bold sm:text-6xl lg:text-[4rem] text-center tracking-wider">
+                <div className="flex flex-col justify-center text-white leading-none font-bold text-5xl sm:text-6xl lg:text-[4rem] text-center tracking-wider">
                 Ready To<br></br>Collaborate?
                 
             <div className="links flex justify-center items-center gap-8 py-10">
@@ -33,7 +33,7 @@ function Contact () {
         <div className=" border-b-[0.1px] border-orange-400"></div>
 
 
-                        <div id="contact-section" className="bg-[#151515] flex justify-between items-center w-full h-[8vh] text-gray-500 p-8 overflow-hidden">
+                        <div id="contact-section" className="bg-[#151515] flex justify-between items-center w-full h-[8vh] text-gray-500 p-8 overflow-hidden text-sm md:text-base lg:text-base">
                             <p className="">
                                 Front End Developer
                             </p>

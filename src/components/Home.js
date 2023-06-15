@@ -2,6 +2,7 @@ import React, { createRef, useEffect, useRef } from "react";
 import '../styles/Home.css'
 import Laptop from '../assets/port-laptop2.png'
 import Phone from '../assets/port-phone2.png'
+import { Link } from 'react-scroll';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
@@ -35,9 +36,15 @@ function Home () {
 
                 <div className="flex justify-center items-center py-8 text-[#fff] font-bold text-xl">
 
+                <Link
+          to="contact-section"
+          smooth={true}         
+          duration={900}        
+          >
                 <button className="bg-gradient-to-b from-orange-300 to-orange-600 px-10 py-3 rounded-[40px]">
                     Contact Me
                 </button>
+                </Link>
 
                 </div>
 
