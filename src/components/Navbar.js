@@ -10,58 +10,56 @@ function Navbar() {
       <div className="navbar my-8 mx-auto">
         <ul className="flex flex-row flex-nowrap justify-center items-center overflow-hidden">
           <li className="px-10">
-          
+
             <button className="nav-link cursor-pointer">
-            <Link 
-            to="home-section"
-            smooth={true}
-            duration={900}
-            >
-              Home
+              <Link
+                to="home-section"
+                smooth={true}
+                duration={900}
+              >
+                Home
               </Link>
-              </button>
-              
+            </button>
+
           </li>
 
           <li className="px-10">
             <button className="nav-link cursor-pointer">
               <Link
-              to="about-section"
-              smooth={true}
-              duration={900}
+                to="about-section"
+                smooth={true}
+                duration={900}
               >
-              About
+                About
               </Link>
-              </button>
+            </button>
           </li>
 
           <FaReact className="logo text-orange-500" size={50} />
 
           <li className="px-10">
             <button className="nav-link cursor-pointer">
-              <Link 
-              to="education-section"
-              smooth={true}
-              duration={900}
+              <Link
+                to="education-section"
+                smooth={true}
+                duration={900}
               >
-              Education
+                Education
               </Link>
-              </button>
+            </button>
           </li>
 
-        <li className="px-10">
-          <button className="nav-link cursor-pointer">
-          <Link
-          to="contact-section"
-          smooth={true}         
-          duration={900}        
-          >
-         Contact
-          </Link>
-          </button>
-      </li>
-
-
+          <li className="px-10">
+            <button className="nav-link cursor-pointer">
+              <Link
+                to="contact-section"
+                smooth={true}
+                duration={900}
+              >
+                Contact
+              </Link>
+            </button>
+          </li>
         </ul>
       </div>
     </>

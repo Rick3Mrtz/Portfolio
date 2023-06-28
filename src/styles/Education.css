@@ -9,15 +9,27 @@
 }
 
   @media (max-width: 768px) {
-    /* Styles for screens up to 768px */
+   
     .icon {
       font-size: 150px;
     }
   }
   
   @media (max-width: 480px) {
-    /* Styles for screens up to 480px */
+   
     .icon {
       font-size: 180px;
+      row-gap: 4rem;
+    }
+    .ut {
+      font-size: 22px;
+      line-height: normal;
+    
+    }
+    .education {
+      text-align: center;
+    }
+    .mern {
+      display: none;
     }
   }

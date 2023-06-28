@@ -12,10 +12,18 @@
     line-height: 1;
   }
   
-  
   @media (max-width: 768px) {
     .title {
       font-size: 40px;
+    }
+    .home-img {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .home-img img {
+      width: 100%;
     }
   
     .subtext {
@@ -29,7 +37,7 @@
     }
   
     .subtext {
-      font-size: 16px;
+      display: none;
     }
   }
   

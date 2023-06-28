@@ -18,60 +18,56 @@ function Education() {
 
                 <div className="education text-gray-500 flex flex-col flex-nowrap justify-center items-center text-3xl tracking-widest">
                     Education & Skills
-                    <h1 className="lg:text-6xl md:text-5xl font-bold text-white text-center px-0 pt-10 pb-10">The University of Texas - Austin
+                    <h1 className=" ut lg:text-6xl md:text-5xl font-bold text-white text-center px-0 pt-10 pb-10">The University of Texas - Austin
                     </h1>
-                    <p className="text-xl md:text-2xl lg:text-3xl text-center text-gray-500">
-                        Graduated Full Stack Flex Coding Bootcamp<br></br>
+                    <p className=" mern text-xl md:text-2xl lg:text-3xl text-center text-gray-500">
+                        Graduated Full Stack MERN Coding Bootcamp<br></br>
                     </p>
 
-                    <div className="cards grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-20 gap-y-8 sm:gap-y-4 py-16 tracking-normal text-gray-300">
-                        {/* Card 1 */}
+                    <div className="cards grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-20 gap-y-8 sm:gap-y-4 md:py-10 lg:py-20 tracking-normal text-gray-300">
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <DiHtml5 className="icon hover:bg-orange-400 hover:text-[#151515] duration-300" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">HTML</p>
                         </div>
 
-                        {/* Card 2 */}
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <DiCss3 className="icon hover:bg-orange-400 hover:text-[#151515] duration-300 flex flex-col" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">CSS</p>
                         </div>
 
-                        {/* Card 3 */}
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <FaReact className="icon hover:bg-orange-400 hover:text-[#151515] duration-300 flex flex-col" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">REACT</p>
                         </div>
 
-                        {/* Card 4 */}
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <SiTailwindcss className="icon hover:bg-orange-400 hover:text-[#151515] duration-300 flex flex-col" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">TAILWIND</p>
                         </div>
 
-                        {/* Card 5 */}
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <SiGreensock className="icon hover:bg-orange-400 hover:text-[#151515] duration-300 flex flex-col" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">GSAP</p>
                         </div>
 
-                        {/* Card 6 */}
+
                         <div className="text-center p-4 flex flex-col items-center">
                             <DiJavascript1 className="icon hover:bg-orange-400 hover:text-[#151515] duration-300 flex flex-col" size={130} />
                             <div className="pt-4"></div>
                             <p className="skill-text">JAVASCRIPT</p>
                         </div>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
     )

@@ -19,11 +19,10 @@
     .gist {
         font-size: 26px;
     }
+
     .current {
         font-size: 16px;
     }
-
-   
   }
   
   @media (max-width: 480px) {
@@ -38,7 +37,5 @@
     .project-container > div {
       width: 100% !important;
     }
-
-    
   }
   
