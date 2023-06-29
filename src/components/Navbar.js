@@ -7,8 +7,18 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMenuVisible(true);
+  };
+
+  const handleMenuClose = () => {
+    setIsMenuVisible(false);
+    setTimeout(() => {
+      setIsMobileMenuOpen(false);
+    }, 300);
   };
 
   return (
@@ -16,15 +26,48 @@ function Navbar() {
       <div className="navbar my-8 mx-auto w-full">
         {/* Hamburger menu button */}
 
-        <div className="bg-white fixed py-8 top-0 right-0 w-full z-10 lg:hidden md:hidden">
-          <div
-            className="hamburger-btn"
-            onClick={handleMobileMenuToggle}>
-            <button>
+        <div className="bg-white fixed py-[30px] top-0 left-0 w-full z-10 lg:hidden md:hidden">
+         
+        <button className={`hamburger-btn ${isMobileMenuOpen ? "active" : ""}`} onClick={handleMobileMenuToggle}>
+            
               <GiHamburgerMenu size={40} />
             </button>
-          </div>
+          
         </div>
+
+        {/* Mobile Menu */}
+
+        {isMobileMenuOpen && (
+          <div className={`mobile-menu ${isMenuVisible ? "visible" : "" }`}>
+            <button className="close-btn" onClick={handleMenuClose}>
+              <span className="close-icon"> &#10005; </span>
+            </button>
+
+            <ul className="mobile-menu-links">
+            <li>
+              <Link to="home-section" smooth={true} duration={900} onClick={handleMenuClose}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about-section" smooth={true} duration={900} onClick={handleMenuClose}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="education-section" smooth={true} duration={900} onClick={handleMenuClose}>
+                Education
+              </Link>
+            </li>
+            <li>
+              <Link to="contact-section" smooth={true} duration={900} onClick={handleMenuClose}>
+                Contact
+              </Link>
+            </li>
+          </ul>
+
+          </div>
+        )}
 
 
         {/* Nav Links */}
