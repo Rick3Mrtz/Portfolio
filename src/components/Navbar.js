@@ -26,9 +26,12 @@ function Navbar() {
       <div className="navbar my-8 mx-auto w-full">
         {/* Hamburger menu button */}
 
-        <div className="bg-white fixed py-[30px] top-0 left-0 w-full z-10 lg:hidden md:hidden">
+        <div className="bg-white fixed py-[15px] top-0 left-0 w-full z-10 lg:hidden md:hidden">
+          <p className="text-2xl font-serif font-bold text-[#151515] ml-6">
+            Rick Martinez
+          </p>
          
-        <button className={`hamburger-btn ${isMobileMenuOpen ? "active" : ""}`} onClick={handleMobileMenuToggle}>
+        <button className={`hamburger-btn text-[#151515] hover:text-orange-500 duration-200 ${isMobileMenuOpen ? "active" : ""}`} onClick={handleMobileMenuToggle}>
             
               <GiHamburgerMenu size={40} />
             </button>
@@ -39,7 +42,7 @@ function Navbar() {
 
         {isMobileMenuOpen && (
           <div className={`mobile-menu ${isMenuVisible ? "visible" : "" }`}>
-            <button className="close-btn" onClick={handleMenuClose}>
+            <button className="close-btn text-white hover:text-orange-500 duration-200" onClick={handleMenuClose}>
               <span className="close-icon"> &#10005; </span>
             </button>
 

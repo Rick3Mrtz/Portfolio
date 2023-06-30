@@ -24,7 +24,7 @@ function Home() {
 
     return (
         <>
-            <div ref={myRef} className="home-bubble bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-4 py-16 px-6 md:px-10 lg:px-40 xl:px-56">
+            <div id="home-section" ref={myRef} className="home-bubble bg-[#151515] rounded-[40px] flex flex-column flex-nowrap justify-center mx-4 py-16 px-6 md:px-10 lg:px-40 xl:px-56">
                 <div className="content flex-col h-min justify-start gap-8 items-center">
 
                     <div className="title text-center font-extrabold leading-none text-[#fff] space-y-4">
@@ -33,7 +33,6 @@ function Home() {
                             <p className="text-2xl md:text-3xl pb-4 font-bold">Based in San Antonio, Tx.</p>
                         I am a front-end web developer determined to transition into a full-time software development career. While my background lies in working in the Emergency Room for the past six years, I am eager to make Software Engineering my primary focus.
                         </p>
-                        
                     </div>
 
                     <div className="flex justify-center items-center py-8 text-[#fff] font-bold text-xl">
