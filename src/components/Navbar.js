@@ -45,22 +45,22 @@ function Navbar() {
 
             <ul className="mobile-menu-links">
             <li>
-              <Link to="home-section" smooth={true} duration={900} onClick={handleMenuClose}>
+              <Link to="home-section" smooth={true} duration={900} onClick={handleMenuClose} className="hover:text-orange-500 duration-200">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="about-section" smooth={true} duration={900} onClick={handleMenuClose}>
+              <Link to="about-section" smooth={true} duration={900} onClick={handleMenuClose} className="hover:text-orange-500 duration-200">
                 About
               </Link>
             </li>
             <li>
-              <Link to="education-section" smooth={true} duration={900} onClick={handleMenuClose}>
+              <Link to="education-section" smooth={true} duration={900} onClick={handleMenuClose} className="hover:text-orange-500 duration-200">
                 Education
               </Link>
             </li>
             <li>
-              <Link to="contact-section" smooth={true} duration={900} onClick={handleMenuClose}>
+              <Link to="contact-section" smooth={true} duration={900} onClick={handleMenuClose} className="hover:text-orange-500 duration-200">
                 Contact
               </Link>
             </li>
