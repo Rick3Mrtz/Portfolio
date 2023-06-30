@@ -42,7 +42,8 @@
     }
   
     .subtext {
-      display: none;
+      /* display: none; */
+      font-size: 14px;
     }
   }
   

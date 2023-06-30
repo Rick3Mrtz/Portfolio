@@ -7,18 +7,18 @@ function Projects() {
       <p className="projects font-sans text-gray-400 tracking-widest pt-20 mx-20  text-4xl">
         Projects
       </p>
-      <div className="project-container w-full flex sm:px-6 md:px-32 lg:px-40 pt-20 overflow-hidden text-2xl">
+      <div className="project-container w-full flex px-6 md:px-32 lg:px-40 pt-20 overflow-hidden text-2xl">
 
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
-            <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline font-bold lg:text-4xl hover:text-gray-400" >E-Commerce Website</a>
+            <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline font-bold lg:text-4xl hover:text-gray-400" >Jate Taco's</a>
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">GreenSock (GSAP) Animation, useEffect/useState,<br></br> Parallax Scrolling, Tailwind CSS, React. </p>
           </p>
-          <p className="gist flex">Front End Dev/Designer</p>
+          
         </div>
       </div>
 
-      <div className="project-container w-full sm:px-6 md:px-32 lg:px-40 flex overflow-hidden text-2xl">
+      <div className="project-container w-full px-6 md:px-32 lg:px-40 flex overflow-hidden text-2xl">
 
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
@@ -26,20 +26,21 @@ function Projects() {
               Glassmorphism</a>
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">Practiced w/ New CSS Trend, React, Vanilla CSS.  </p>
           </p>
-          <p className="gist flex">Front End Dev/Designer</p>
+          
         </div>
       </div>
 
-      <div className="project-container w-full sm:px-6 md:px-32 lg:px-40 flex overflow-hidden text-2xl">
+      <div className="project-container w-full px-6 md:px-32 lg:px-40 flex overflow-hidden text-2xl">
+
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
             <div className="cursor-not-allowed font-bold lg:text-4xl line-through" >
               Marvel Database</div>
 
-            <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">*WORK IN PROGRESS*<br></br>React, Tailwind, GSAP, API, Axios </p>
+            <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">*WORK IN PROGRESS* React, Tailwind, GSAP, Axios, Node </p>
           </p>
 
-          <p className="gist flex">Front End Dev/Designer</p>
+          
         </div>
       </div>
 
