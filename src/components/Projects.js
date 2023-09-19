@@ -8,7 +8,7 @@ function Projects() {
         Projects
       </p>
       
-      <div className="project-container w-full flex px-6 md:px-32 lg:px-40 pt-20 overflow-hidden text-2xl">
+      <div className="project-container w-full flex px-6 md:px-32 lg:px-40 pt-12 overflow-hidden text-2xl">
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
             <a href="https://jate-emporium.herokuapp.com/" className="cursor-pointer underline font-bold lg:text-4xl hover:text-gray-400" >Jate Taco's</a>
@@ -31,22 +31,21 @@ function Projects() {
 
         <div className="flex w-full justify-between border-b-2 pb-20 pt-8">
           <p className="jate font-sans text-gray-600 lg:tracking-widest">
-            <div className="cursor-not-allowed font-bold lg:text-4xl line-through" >
-              Marvel Database</div>
-            <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">*WORK IN PROGRESS* React, Tailwind, GSAP, Axios, Node </p>
+            <div className="cursor-not-allowed font-bold lg:text-4xl underline" >
+              QuikList</div>
+            <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">*WORK IN PROGRESS* <br></br>Currently developing my first solo iOS Application using Expo with React-Native </p>
           </p>
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-start py-20">
-        <p className="projects font-sans text-gray-400 tracking-widest py-12 mx-20 text-4xl">
+      <div className="w-full flex flex-col items-start">
+        <p className="projects font-sans text-gray-400 tracking-widest pt-14 pb-12 mx-20 text-4xl">
           Currently
         </p>
-        <p className="current flex flex-col items-center w-full lg:text-2xl lg:leading-loose leading-9 md:text-xl sm:text-[14px] text-gray-500 tracking-wider list-none">
-          <li>- Self Educating myself on UX/UI</li>
+        <p className="current flex flex-col pb-10 px-6 md:px-32 lg:px-40 w-full lg:text-2xl lg:leading-loose md:leading-loose leading-9 md:text-xl sm:text-[14px] text-gray-500 list-none">
+          <li>- Taking TypeScript and UX/UI courses</li>
           <li>- Always looking for new Animation Libraries</li>
-          <li>- Front End is my comfort zone</li>
-          <li>- Working on my Weaknesses</li>
+          <li>- Developing my QuikList Application for iOS</li>
           <li>- Looking forward to collaborating with a<br></br>Creative and Innovative Development team!</li>
         </p>
       </div>

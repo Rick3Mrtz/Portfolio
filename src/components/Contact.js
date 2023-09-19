@@ -8,12 +8,12 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact() {
     return (
         <>
-            <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] h-[30vh] lg:h-[35vh] md:h-[35vh] sm:h-[30vh] font-sans">
+            <div className="bg-[#151515] flex justify-center items-center w-full rounded-t-[40px] font-sans py-8">
 
                 <div className="flex flex-col justify-center text-white leading-none font-bold text-4xl md:text-6xl lg:text-[4rem] text-center tracking-wider">
                     Ready To<br></br>Collaborate?
 
-                    <div className="links flex justify-center items-center gap-8 py-10">
+                    <div className="links flex justify-center items-center gap-8 pt-4">
                         <a href='http://www.linkedin.com/in/rickmrtz3'>
                             <FaLinkedin size={50} id='linked' className='cursor-pointer hover:scale-125 duration-200 text-gray-400 hover:text-orange-400' />
                         </a>
@@ -31,7 +31,7 @@ function Contact() {
             <div className=" border-b-[0.1px] border-orange-400"></div>
 
 
-            <div id="contact-section" className="bg-[#151515] flex justify-between items-center w-full h-[8vh] text-gray-500 p-8 overflow-hidden text-[12px] md:text-base lg:text-base">
+            <div id="contact-section" className="bg-[#151515] flex justify-between items-center w-full text-gray-500 px-1 overflow-hidden text-[12px] md:text-base lg:text-base p-3 md:px-6">
                 <p>Front End Developer</p>
                 <p>Rick Martinez | 2023</p>
                 <p>Software Engineer</p>

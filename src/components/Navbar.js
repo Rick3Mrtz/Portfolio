@@ -24,7 +24,6 @@ function Navbar() {
   return (
     <>
       <div className="navbar my-8 mx-auto w-full">
-        {/* Hamburger menu button */}
 
         <div className="bg-white fixed py-[15px] top-0 left-0 w-full z-10 lg:hidden md:hidden">
           <p className="text-2xl font-serif font-bold text-[#151515] ml-6">
@@ -37,8 +36,6 @@ function Navbar() {
             </button>
           
         </div>
-
-        {/* Mobile Menu */}
 
         {isMobileMenuOpen && (
           <div className={`mobile-menu ${isMenuVisible ? "visible" : "" }`}>
@@ -72,8 +69,6 @@ function Navbar() {
           </div>
         )}
 
-
-        {/* Nav Links */}
         <ul
           className={`flex flex-row flex-nowrap justify-center items-center overflow-hidden ${isMobileMenuOpen ? "mobile-menu-open" : ""
             }`}

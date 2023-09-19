@@ -26,7 +26,6 @@
   border-bottom: 2px solid black;
 }
 
-/* Hiding the hamburger menu on large screens */
 .hamburger-btn {
   display: none; 
 }

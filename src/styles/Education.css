@@ -1,18 +1,45 @@
-.icon {
-  font-size: 130px;
-  box-shadow: 2px 3px 5px;
-}
+  .image-icons {
+    max-width: 150px;
+    height: 5rem;
+    padding: 0 20px;
+    object-fit: cover;
+    color: #fb923c;
+    font-size: 48px;
+  }
 
-.icon:hover {
-  box-shadow: #fff 2px 3px 5px;
-  transform: scale(1.1);
-}
-
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    margin-top: 4rem;
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+  }
+  
+  section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
   @media (max-width: 768px) {
    
     .icon {
       font-size: 150px;
     }
+    
   }
   
   @media (max-width: 480px) {
@@ -24,11 +51,19 @@
     .ut {
       font-size: 22px;
       line-height: normal;
+      padding-bottom: 0;
     }
     .education {
       text-align: center;
+    }
+    #education-section {
+      padding: 20 10px;
+    }
+    .inner {
+      margin-top: 1rem;
     }
     .mern {
       display: none;
     }
   }
+
