@@ -66,7 +66,7 @@ function Projects() {
               QuikList iOS Application
             </div>
             <p className="tracking-normal text-gray-400 h-full flex justify-start items-end text-xl">
-              *WORK IN PROGRESS* <br></br>Currently developing my first solo iOS
+              *WORK IN PROGRESS* <br></br>Converting my QuikList website into an iOS
               Application using Expo with React-Native{" "}
             </p>
           </p>
